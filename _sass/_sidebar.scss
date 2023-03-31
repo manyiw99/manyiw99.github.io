@@ -14,9 +14,9 @@
 }
 
 .avatar-image {
-  width: 50%;
+  width: 100%;
   height: auto;
-  border-radius: 75%;
+  border-radius: 100%;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -67,24 +67,24 @@
   }
 }
 
-.social {
-  margin-top: var(--spacer-2);
-  font-size: 150%;
-  white-space: normal;
-  line-height: .5;
-}
+// .social {
+//   margin-top: var(--spacer-2);
+//   font-size: 150%;
+//   white-space: normal;
+//   line-height: .5;
+// }
 
-.social-icon {
-  padding: var(--spacer);
-  &:hover,
-  &:focus {
-    color: var(--link-hover-color);
-    background-color: transparent;
-  }
-}
+// .social-icon {
+//   padding: var(--spacer);
+//   &:hover,
+//   &:focus {
+//     color: var(--link-hover-color);
+//     background-color: transparent;
+//   }
+// }
 
 @media (max-width: $md-width) {
   .avatar-image {
-    width: 15%;
+    width: 25%;
   }
 }
